@@ -4,6 +4,8 @@
 
 The web app is live right now at: https://snake-webapp.herokuapp.com/
 
+images of the app: https://imgur.com/gallery/gzGGoga
+
 Doc files can be found in the docs folder, under _build then _html then open index.html. It can only be opened after cloning the repo.
 
 The tests are in the tests folder and can be run using the command python -m pytest 
