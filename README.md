@@ -1,4 +1,4 @@
-# Project: Snake-Game-Webapp-CMPE-131
+# Snake-Game-Webapp
 
 [![Build Status](https://travis-ci.org/akumar23/SnakeGame.svg?branch=master)](https://travis-ci.org/akumar23/SnakeGame)
 
