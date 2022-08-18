@@ -46,6 +46,11 @@ div.score{
     font-size : large;
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
 div.replay{
 
 }

@@ -12,7 +12,22 @@
 	</script>
 
     {% for user in users %}
-    <div><p style= "text-indent: 40px">{{user.username }}: Normal score: {{user.userscore}}, Hard score: {{user.hardscore}}, Black score: {{user.blackscore}}
+    <table>
+        <tr>
+            <th> User </th>
+            <th> Normal Score </th>
+            <th> Hard Score </th>
+            <th> Invincible Score </th>
+        </tr>
+
+        <tr>
+            <td> {{user.username}} </td>
+            <td> {{user.userscore}} </td>
+            <td> {{user.hardscore}} </td>
+            <td> {{user.blackscore}} </td>
+        </tr>
+    </table>
+    <br>
     {% endfor %}
 	</p></div>
     <div style = "position:absolute; left: 50px">
